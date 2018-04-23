@@ -191,10 +191,69 @@ SELECT * FROM movies;
 INSERT INTO people (name) VALUES ('Sandy McMillan');
 SELECT * FROM people;
 
+-- INSERT 0 1
+--  id |          name
+-- ----+------------------------
+--   1 | Euan Bell
+--   2 | Pauline Cairns
+--   3 | Yang Chen
+--   4 | Ruairidh Grass
+--   5 | Hannah Green
+--   6 | Hamish Hoad
+--   7 | Andrew Laughlin
+--   8 | Jo Malo
+--   9 | Duncan Marjoribanks
+--  10 | Juan Mata Ruiz
+--  11 | Paul McPhail Stevenson
+--  12 | Sarah Murphy
+--  13 | Katy Preston
+--  14 | Richard Ramson
+--  15 | Iain Rogerson
+--  17 | Joe Stafford
+--  18 | Daniel Stewart
+--  19 | Luis Tejero
+--  20 | Colin Tindle
+--  21 | Rachel Westwater
+--  22 | Andrew Smith
+--  23 | Zsolt Podoba-Szalai
+--  16 | Davina Sanders
+--  24 | Sandy McMillan
+-- (24 rows)
+
+
+
 -- 7. Zsolt, has decided to hijack our movie evening, Remove him from the table of people.
 
+DELETE FROM people WHERE name = 'Zsolt Podoba-Szalai';
+SELECT * FROM people;
 
-
+-- DELETE 1
+--  id |          name
+-- ----+------------------------
+--   1 | Euan Bell
+--   2 | Pauline Cairns
+--   3 | Yang Chen
+--   4 | Ruairidh Grass
+--   5 | Hannah Green
+--   6 | Hamish Hoad
+--   7 | Andrew Laughlin
+--   8 | Jo Malo
+--   9 | Duncan Marjoribanks
+--  10 | Juan Mata Ruiz
+--  11 | Paul McPhail Stevenson
+--  12 | Sarah Murphy
+--  13 | Katy Preston
+--  14 | Richard Ramson
+--  15 | Iain Rogerson
+--  17 | Joe Stafford
+--  18 | Daniel Stewart
+--  19 | Luis Tejero
+--  20 | Colin Tindle
+--  21 | Rachel Westwater
+--  22 | Andrew Smith
+--  16 | Davina Sanders
+--  24 | Sandy McMillan
+-- (23 rows)
 
 -- 8. Somehow the list of people includes two people named 'Andrew'. Change these entries to the proper names ('Jeff 4', 'Jeff 5')
 
