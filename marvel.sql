@@ -188,7 +188,8 @@ SELECT * FROM movies;
 -- 6. Create a new entry in the 'people' table with the name of one of the instructors.
 
 
-
+INSERT INTO people (name) VALUES ('Sandy McMillan');
+SELECT * FROM people;
 
 -- 7. Zsolt, has decided to hijack our movie evening, Remove him from the table of people.
 
