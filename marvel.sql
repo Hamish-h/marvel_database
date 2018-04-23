@@ -258,6 +258,40 @@ SELECT * FROM people;
 -- 8. Somehow the list of people includes two people named 'Andrew'. Change these entries to the proper names ('Jeff 4', 'Jeff 5')
 
 
+UPDATE people SET name = 'Jeff 4' WHERE name = 'Andrew Laughlin';
+UPDATE people SET name = 'Jeff 5' WHERE name = 'Andrew Smith';
+SELECT name FROM people;
+
+--
+-- UPDATE 1
+-- UPDATE 1
+--           name
+-- ------------------------
+--  Euan Bell
+--  Pauline Cairns
+--  Yang Chen
+--  Ruairidh Grass
+--  Hannah Green
+--  Hamish Hoad
+--  Jo Malo
+--  Duncan Marjoribanks
+--  Juan Mata Ruiz
+--  Paul McPhail Stevenson
+--  Sarah Murphy
+--  Katy Preston
+--  Richard Ramson
+--  Iain Rogerson
+--  Joe Stafford
+--  Daniel Stewart
+--  Luis Tejero
+--  Colin Tindle
+--  Rachel Westwater
+--  Davina Sanders
+--  Sandy McMillan
+--  Jeff 4
+--  Jeff 5
+-- (23 rows)
+
 
 
 -- 9. The cinema has just heard that they will be holding an exclusive midnight showing of 'Guardians of the Galaxy 2'!! Create a new entry in the 'movies' table to reflect this.
