@@ -149,3 +149,49 @@ INSERT INTO attendances (person_id, movie_id) VALUES (12, 2);
 INSERT INTO attendances (person_id, movie_id) VALUES (5, 8);
 INSERT INTO attendances (person_id, movie_id) VALUES (1, 1);
 INSERT INTO attendances (person_id, movie_id) VALUES (21, 4);
+
+
+-- 1. Return ALL the data in the 'movies' table.
+
+
+
+
+-- 2. Return ONLY the name column from the 'people' table
+
+
+
+
+-- 3.Oops! Someone at CodeClan spelled Davina's name wrong! Change it to reflect the proper spelling (change 'Davinda Sanders' to 'Davina Sanders').
+
+
+
+-- 4. Return ONLY your name from the 'people' table.
+
+
+
+-- 5. The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
+
+
+
+
+-- 6. Create a new entry in the 'people' table with the name of one of the instructors.
+
+
+
+
+-- 7. Zsolt, has decided to hijack our movie evening, Remove him from the table of people.
+
+
+
+
+-- 8. Somehow the list of people includes two people named 'Andrew'. Change these entries to the proper names ('Jeff 4', 'Jeff 5')
+
+
+
+
+-- 9. The cinema has just heard that they will be holding an exclusive midnight showing of 'Guardians of the Galaxy 2'!! Create a new entry in the 'movies' table to reflect this.
+
+
+
+
+-- 10. The cinema would also like to make the Guardian movies a back to back feature. Update the 'Guardians of the Galaxy' show time from 18:55 to 21:30
