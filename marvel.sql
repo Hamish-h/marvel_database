@@ -322,10 +322,10 @@ SELECT * FROM movies;
 
 -- 10. The cinema would also like to make the Guardian movies a back to back feature. Update the 'Guardians of the Galaxy' show time from 18:55 to 21:30
 
-INSERT INTO movies (title, year, show_time)
-VALUES('Guardians of the Galaxy', 2014, '18:55');
+UPDATE movies SET show_time = '21:30' WHERE title = 'Guardians of the Galaxy';
+SELECT * FROM movies;
 
--- INSERT 0 1
+-- UPDATE 1
 --  id |                title                | year | show_time
 -- ----+-------------------------------------+------+-----------
 --   1 | Iron Man                            | 2008 | 19:55
@@ -337,10 +337,41 @@ VALUES('Guardians of the Galaxy', 2014, '18:55');
 --   7 | Iron Man 3                          | 2013 | 23:10
 --   8 | Thor: The Dark World                | 2013 | 12:25
 --  10 | Captain America: The Winter Soldier | 2014 | 14:45
---  11 | Guardians of the Galaxy             | 2014 | 18:55
 --  12 | Avengers: Age of Ultron             | 2015 | 20:40
 --  13 | Ant-Man                             | 2015 | 13:50
 --  14 | Captain America: Civil War          | 2016 | 21:30
 --  15 | Doctor Strange                      | 2016 | 17:55
 --  16 | Guardians of the Galaxy 2           | 2014 | 00:00
+--  11 | Guardians of the Galaxy             | 2014 | 21:30
 -- (15 rows)
+
+
+-- ## Extension
+--
+-- 1. Research how to delete multiple entries from your table in a single command.
+
+DELETE FROM people WHERE id IN (1, 3, 5, 7, 9);
+SELECT * FROM people;
+
+-- DELETE 5
+--  id |          name
+-- ----+------------------------
+--   2 | Pauline Cairns
+--   4 | Ruairidh Grass
+--   6 | Hamish Hoad
+--   8 | Jo Malo
+--  10 | Juan Mata Ruiz
+--  11 | Paul McPhail Stevenson
+--  12 | Sarah Murphy
+--  13 | Katy Preston
+--  14 | Richard Ramson
+--  15 | Iain Rogerson
+--  17 | Joe Stafford
+--  18 | Daniel Stewart
+--  19 | Luis Tejero
+--  20 | Colin Tindle
+--  21 | Rachel Westwater
+--  16 | Davina Sanders
+--  24 | Sandy McMillan
+--  22 | Jeff 5
+-- (18 rows)
