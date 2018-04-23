@@ -62,7 +62,7 @@ INSERT INTO movies (title, year, show_time) VALUES ('Doctor Strange', 2016, '17:
 
 -- 1. Return ALL the data in the 'movies' table.
 
-SELECT  FROM movies;
+SELECT * FROM movies;
 
 -- id |                title                | year | show_time
 -- ----+-------------------------------------+------+-----------
