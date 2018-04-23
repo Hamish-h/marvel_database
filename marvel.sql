@@ -60,119 +60,130 @@ INSERT INTO movies (title, year, show_time) VALUES ('Ant-Man', 2015, '13:50');
 INSERT INTO movies (title, year, show_time) VALUES ('Captain America: Civil War', 2016, '21:30');
 INSERT INTO movies (title, year, show_time) VALUES ('Doctor Strange', 2016, '17:55');
 
-INSERT INTO attendances (person_id, movie_id) VALUES (2, 13);
-INSERT INTO attendances (person_id, movie_id) VALUES (22, 7);
-INSERT INTO attendances (person_id, movie_id) VALUES (12, 9);
-INSERT INTO attendances (person_id, movie_id) VALUES (21, 5);
-INSERT INTO attendances (person_id, movie_id) VALUES (5, 15);
-INSERT INTO attendances (person_id, movie_id) VALUES (13, 2);
-INSERT INTO attendances (person_id, movie_id) VALUES (16, 7);
-INSERT INTO attendances (person_id, movie_id) VALUES (1, 13);
-INSERT INTO attendances (person_id, movie_id) VALUES (8, 15);
-INSERT INTO attendances (person_id, movie_id) VALUES (5, 16);
-INSERT INTO attendances (person_id, movie_id) VALUES (3, 15);
-INSERT INTO attendances (person_id, movie_id) VALUES (10, 1);
-INSERT INTO attendances (person_id, movie_id) VALUES (16, 14);
-INSERT INTO attendances (person_id, movie_id) VALUES (19, 16);
-INSERT INTO attendances (person_id, movie_id) VALUES (22, 6);
-INSERT INTO attendances (person_id, movie_id) VALUES (9, 1);
-INSERT INTO attendances (person_id, movie_id) VALUES (2, 15);
-INSERT INTO attendances (person_id, movie_id) VALUES (11, 3);
-INSERT INTO attendances (person_id, movie_id) VALUES (8, 9);
-INSERT INTO attendances (person_id, movie_id) VALUES (13, 10);
-INSERT INTO attendances (person_id, movie_id) VALUES (15, 11);
-INSERT INTO attendances (person_id, movie_id) VALUES (14, 14);
-INSERT INTO attendances (person_id, movie_id) VALUES (1, 2);
-INSERT INTO attendances (person_id, movie_id) VALUES (9, 9);
-INSERT INTO attendances (person_id, movie_id) VALUES (9, 4);
-INSERT INTO attendances (person_id, movie_id) VALUES (17, 10);
-INSERT INTO attendances (person_id, movie_id) VALUES (23, 2);
-INSERT INTO attendances (person_id, movie_id) VALUES (10, 9);
-INSERT INTO attendances (person_id, movie_id) VALUES (16, 16);
-INSERT INTO attendances (person_id, movie_id) VALUES (10, 4);
-INSERT INTO attendances (person_id, movie_id) VALUES (19, 10);
-INSERT INTO attendances (person_id, movie_id) VALUES (13, 4);
-INSERT INTO attendances (person_id, movie_id) VALUES (7, 10);
-INSERT INTO attendances (person_id, movie_id) VALUES (17, 9);
-INSERT INTO attendances (person_id, movie_id) VALUES (8, 7);
-INSERT INTO attendances (person_id, movie_id) VALUES (6, 4);
-INSERT INTO attendances (person_id, movie_id) VALUES (20, 5);
-INSERT INTO attendances (person_id, movie_id) VALUES (6, 1);
-INSERT INTO attendances (person_id, movie_id) VALUES (12, 11);
-INSERT INTO attendances (person_id, movie_id) VALUES (8, 1);
-INSERT INTO attendances (person_id, movie_id) VALUES (14, 11);
-INSERT INTO attendances (person_id, movie_id) VALUES (4, 6);
-INSERT INTO attendances (person_id, movie_id) VALUES (22, 9);
-INSERT INTO attendances (person_id, movie_id) VALUES (3, 9);
-INSERT INTO attendances (person_id, movie_id) VALUES (13, 9);
-INSERT INTO attendances (person_id, movie_id) VALUES (1, 8);
-INSERT INTO attendances (person_id, movie_id) VALUES (16, 3);
-INSERT INTO attendances (person_id, movie_id) VALUES (2, 9);
-INSERT INTO attendances (person_id, movie_id) VALUES (11, 12);
-INSERT INTO attendances (person_id, movie_id) VALUES (11, 1);
-INSERT INTO attendances (person_id, movie_id) VALUES (22, 11);
-INSERT INTO attendances (person_id, movie_id) VALUES (21, 9);
-INSERT INTO attendances (person_id, movie_id) VALUES (15, 9);
-INSERT INTO attendances (person_id, movie_id) VALUES (10, 2);
-INSERT INTO attendances (person_id, movie_id) VALUES (12, 1);
-INSERT INTO attendances (person_id, movie_id) VALUES (14, 16);
-INSERT INTO attendances (person_id, movie_id) VALUES (7, 5);
-INSERT INTO attendances (person_id, movie_id) VALUES (20, 11);
-INSERT INTO attendances (person_id, movie_id) VALUES (4, 9);
-INSERT INTO attendances (person_id, movie_id) VALUES (9, 13);
-INSERT INTO attendances (person_id, movie_id) VALUES (13, 12);
-INSERT INTO attendances (person_id, movie_id) VALUES (20, 13);
-INSERT INTO attendances (person_id, movie_id) VALUES (22, 10);
-INSERT INTO attendances (person_id, movie_id) VALUES (23, 5);
-INSERT INTO attendances (person_id, movie_id) VALUES (19, 1);
-INSERT INTO attendances (person_id, movie_id) VALUES (9, 14);
-INSERT INTO attendances (person_id, movie_id) VALUES (7, 3);
-INSERT INTO attendances (person_id, movie_id) VALUES (8, 16);
-INSERT INTO attendances (person_id, movie_id) VALUES (16, 1);
-INSERT INTO attendances (person_id, movie_id) VALUES (15, 1);
-INSERT INTO attendances (person_id, movie_id) VALUES (3, 16);
-INSERT INTO attendances (person_id, movie_id) VALUES (18, 6);
-INSERT INTO attendances (person_id, movie_id) VALUES (11, 13);
-INSERT INTO attendances (person_id, movie_id) VALUES (9, 6);
-INSERT INTO attendances (person_id, movie_id) VALUES (21, 16);
-INSERT INTO attendances (person_id, movie_id) VALUES (7, 7);
-INSERT INTO attendances (person_id, movie_id) VALUES (16, 13);
-INSERT INTO attendances (person_id, movie_id) VALUES (15, 14);
-INSERT INTO attendances (person_id, movie_id) VALUES (5, 5);
-INSERT INTO attendances (person_id, movie_id) VALUES (13, 1);
-INSERT INTO attendances (person_id, movie_id) VALUES (7, 15);
-INSERT INTO attendances (person_id, movie_id) VALUES (17, 13);
-INSERT INTO attendances (person_id, movie_id) VALUES (21, 13);
-INSERT INTO attendances (person_id, movie_id) VALUES (6, 11);
-INSERT INTO attendances (person_id, movie_id) VALUES (12, 10);
-INSERT INTO attendances (person_id, movie_id) VALUES (12, 2);
-INSERT INTO attendances (person_id, movie_id) VALUES (5, 8);
-INSERT INTO attendances (person_id, movie_id) VALUES (1, 1);
-INSERT INTO attendances (person_id, movie_id) VALUES (21, 4);
-
-
 -- 1. Return ALL the data in the 'movies' table.
 
+SELECT  FROM movies;
+
+-- id |                title                | year | show_time
+-- ----+-------------------------------------+------+-----------
+--   1 | Iron Man                            | 2008 | 19:55
+--   2 | The Incredible Hulk                 | 2008 | 18:40
+--   3 | Iron Man 2                          | 2010 | 21:55
+--   4 | Thor                                | 2011 | 16:35
+--   5 | Captain America: The First Avenger  | 2011 | 13:25
+--   6 | Avengers Assemble                   | 2012 | 22:05
+--   7 | Iron Man 3                          | 2013 | 23:10
+--   8 | Thor: The Dark World                | 2013 | 12:25
+--   9 | Batman Begins                       | 2005 | 14:00
+--  10 | Captain America: The Winter Soldier | 2014 | 14:45
+--  11 | Guardians of the Galaxy             | 2014 | 18:55
+--  12 | Avengers: Age of Ultron             | 2015 | 20:40
+--  13 | Ant-Man                             | 2015 | 13:50
+--  14 | Captain America: Civil War          | 2016 | 21:30
+--  15 | Doctor Strange                      | 2016 | 17:55
+-- (15 rows)
 
 
 
 -- 2. Return ONLY the name column from the 'people' table
 
+SELECT name FROM people;
+
+-- name
+-- ------------------------
+-- Euan Bell
+-- Pauline Cairns
+-- Yang Chen
+-- Ruairidh Grass
+-- Hannah Green
+-- Hamish Hoad
+-- Andrew Laughlin
+-- Jo Malo
+-- Duncan Marjoribanks
+-- Juan Mata Ruiz
+-- Paul McPhail Stevenson
+-- Sarah Murphy
+-- Katy Preston
+-- Richard Ramson
+-- Iain Rogerson
+-- Davinda Sanders
+-- Joe Stafford
+-- Daniel Stewart
+-- Luis Tejero
+-- Colin Tindle
+-- Rachel Westwater
+-- Andrew Smith
+-- Zsolt Podoba-Szalai
+-- (23 rows)
 
 
 
 -- 3.Oops! Someone at CodeClan spelled Davina's name wrong! Change it to reflect the proper spelling (change 'Davinda Sanders' to 'Davina Sanders').
 
+UPDATE people SET name = 'Davina Sanders' WHERE id = 16;
+SELECT name FROM people;
 
+-- name
+-- ------------------------
+-- Euan Bell
+-- Pauline Cairns
+-- Yang Chen
+-- Ruairidh Grass
+-- Hannah Green
+-- Hamish Hoad
+-- Andrew Laughlin
+-- Jo Malo
+-- Duncan Marjoribanks
+-- Juan Mata Ruiz
+-- Paul McPhail Stevenson
+-- Sarah Murphy
+-- Katy Preston
+-- Richard Ramson
+-- Iain Rogerson
+-- Joe Stafford
+-- Daniel Stewart
+-- Luis Tejero
+-- Colin Tindle
+-- Rachel Westwater
+-- Andrew Smith
+-- Zsolt Podoba-Szalai
+-- Davina Sanders
+-- (23 rows)
+--
 
 -- 4. Return ONLY your name from the 'people' table.
 
+SELECT name FROM people WHERE name = 'Hamish Hoad';
+
+-- name
+-- -------------
+-- Hamish Hoad
+-- (1 row)
 
 
 -- 5. The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
 
+DELETE FROM movies WHERE title = 'Batman Begins';
+SELECT * FROM movies;
 
-
+-- DELETE 1
+--  id |                title                | year | show_time
+-- ----+-------------------------------------+------+-----------
+--   1 | Iron Man                            | 2008 | 19:55
+--   2 | The Incredible Hulk                 | 2008 | 18:40
+--   3 | Iron Man 2                          | 2010 | 21:55
+--   4 | Thor                                | 2011 | 16:35
+--   5 | Captain America: The First Avenger  | 2011 | 13:25
+--   6 | Avengers Assemble                   | 2012 | 22:05
+--   7 | Iron Man 3                          | 2013 | 23:10
+--   8 | Thor: The Dark World                | 2013 | 12:25
+--  10 | Captain America: The Winter Soldier | 2014 | 14:45
+--  11 | Guardians of the Galaxy             | 2014 | 18:55
+--  12 | Avengers: Age of Ultron             | 2015 | 20:40
+--  13 | Ant-Man                             | 2015 | 13:50
+--  14 | Captain America: Civil War          | 2016 | 21:30
+--  15 | Doctor Strange                      | 2016 | 17:55
+-- (14 rows)
 
 -- 6. Create a new entry in the 'people' table with the name of one of the instructors.
 
